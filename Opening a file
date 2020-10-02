@@ -1,0 +1,33 @@
+# Steps involved:
+
+Open
+read /write
+Close the file
+# Step 1: Opening a file:
+# Code
+Import os
+Myfile= open(‘C:\\Users\\farhan\\Desktop\\test.txt’)
+
+# Step 2(a): Reading contents of a file
+Import os
+Myfile=open(‘C:\\Users\\farhan\\Desktop\\text.txt’)
+Myfile.read()
+
+# Step 2(b): Writing contents to a file
+# Code
+Import os
+Myfile = open(‘C:\\Users\\farhan\\Desktop\\test.txt’, ‘w’)
+Myfile.write(‘I am written by Python in test file’)
+Myfile.close()
+
+# Step 3: Closing the file
+# Code
+Import os
+Myfile=open(‘C:\\Users\\farhan\\Desktop\\text.txt’)
+Myfile.close()
+
+For further reading about os module:
+Open cmd
+Python
+>>>import os
+>>>help(os)
